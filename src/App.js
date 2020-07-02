@@ -1,12 +1,35 @@
 import React from 'react';
 import './App.css';
+import NavBar from "./Components/Navbar"
+import Favorite from "./Components/Favorite"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <NavBar/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
+      <Favorite/>
     </div>
   );
-}
+}     
 
 export default App;
