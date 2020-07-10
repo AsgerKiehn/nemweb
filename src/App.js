@@ -4,11 +4,8 @@ import NavBar from "./Components/Navbar"
 import Favorite from "./Components/Favorite"
 import ProductBox from "./Components/ProductBox"
 import Footer from "./Components/Footer"
-
-import weblearn from "./logos/web-learn.png"
-import starterlearn from "./logos/starter-learn.png"
-import enkeltProd from "./logos/enkelt-produkt.png"
-
+import BottomInspire from "./Components/BottomInspire"
+import Welcome from "./Components/Welcome"
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,49 +27,20 @@ function App() {
 
 
   return (
-      <>
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <NavBar setDarkMode={setDarkMode}/>
       <h1 className="topbar" >{darkMode ? "Dark Mode" : "Light Mode"}</h1>
+      <Welcome/>
       <Favorite/>
       <Favorite/>
       <Favorite/>
       <Favorite/>
       <Favorite/>
       <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-      <Favorite/>
-
-      <div className="product-container">
-
-        <ProductBox 
-        title="Enkeltvalg" 
-        pic={enkeltProd}
-        />
-
-        <ProductBox 
-        title="Starter Course" 
-        pic={starterlearn}
-        />
-
-        <ProductBox 
-        title="All-in" 
-        pic={weblearn}
-        />
-
-      </div>
+      <ProductBox />
+      <BottomInspire/>
       <Footer/>
     </div>
-    </>
   );
 }     
 

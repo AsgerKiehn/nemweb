@@ -1,0 +1,30 @@
+.inspire-conatiner {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.bottom-inspire-pic {
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    width: 40%;
+}
+
+.good-advice {
+    display: flex;
+    margin: 0 auto;
+}
+
+.inspire-box {
+    background-color: #E6E6E6;
+    margin: 15px;
+    width: 560px;
+    -webkit-box-shadow: 0px 0px 4px -9px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 4px -9px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 15px -9px rgba(0,0,0,0.10);
+  }
