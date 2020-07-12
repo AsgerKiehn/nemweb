@@ -4,7 +4,7 @@ import "../styles/footer.css"
 
 function Footer() {
     return (
-        <div className="footer-container">
+        <div id="footer-container">
             <div className="footer-content">
 
                 <div className="footer-section-about">
@@ -20,7 +20,6 @@ function Footer() {
                     <div className="socials">
                         <a href="#"><i className="fa fa-facebook"></i></a>
                         <a href="#"><i className="fa fa-instagram"></i></a>
-                        <a href="#"><i className="fa fa-twitter"></i></a>
                         <a href="#"><i className="fa fa-youtube"></i></a>
                     </div>
                 </div>

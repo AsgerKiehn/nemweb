@@ -1,11 +1,12 @@
-.footer-container {
+#footer-container {
     background-color: rgb(33, 39, 63);
     color: rgb(204, 205, 207);
     height: 360px;
     position: relative;
+    font-size: 15px;
 }
 
-.footer-container .footer-bottom {
+#footer-container .footer-bottom {
     background-color: rgb(23, 28, 48);
     color: rgb(177, 178, 185);
     height: 40px;
@@ -17,18 +18,18 @@
     padding-top: 8px;
 }
 
-.footer-container .footer-content {
+#footer-container .footer-content {
     display: flex;
     height: 360px;
 }
 
-.footer-container .footer-content .footer-section-about {
+#footer-container .footer-content .footer-section-about {
     flex: 1;
     border-right: 4px solid rgb(23, 28, 48);
     padding: 25px;
 }
 
-.footer-container .footer-content .footer-section-links {
+#footer-container .footer-content .footer-section-links {
     flex: 1;
     border-right: 4px solid rgb(23, 28, 48);
     padding: 25px;
@@ -36,20 +37,20 @@
     display: block;
 }
 
-.footer-container .footer-content .footer-section-links a {
+#footer-container .footer-content .footer-section-links a {
     color: rgb(204, 205, 207);
     display: block;
     padding: 0;
 }
 
-.footer-container .footer-content .footer-section-contact-form {
+#footer-container .footer-content .footer-section-contact-form {
     flex: 1;
     border-right: 4px solid rgb(23, 28, 48);
     padding: 25px;
     text-align: center;
 }
 
-.footer-container .footer-content .footer-section-contact-form textarea {
+#footer-container .footer-content .footer-section-contact-form textarea {
     background-color: rgb(23, 28, 48);
     border: none;
     color: whitesmoke;
@@ -64,7 +65,7 @@
     padding-top: 5px;
 }
 
-.footer-container .footer-content .footer-section-contact-form .text-input-contact {
+#footer-container .footer-content .footer-section-contact-form .text-input-contact {
     background-color: rgb(23, 28, 48);
     color: whitesmoke;
     border: none;
@@ -72,7 +73,7 @@
     padding-left: 8px;
 }
 
-.footer-container .footer-content .footer-section-contact-form .submit-contact {
+#footer-container .footer-content .footer-section-contact-form .submit-contact {
     background-color: rgb(23, 28, 48);
     color: whitesmoke;
     border: none;
@@ -81,25 +82,25 @@
     height: 30px;
 }
 
-.footer-container .footer-content .footer-section-contact-form .submit-contact:hover {
+#footer-container .footer-content .footer-section-contact-form .submit-contact:hover {
     background-color: rgb(38, 46, 80);
     color: whitesmoke;
     border: none;
     border-radius: 5px;
 }
 
-.footer-container .footer-content .footer-section-about h2 span {
+#footer-container .footer-content .footer-section-about h2 span {
     margin-top: 20px;
     color: rgb(60, 128, 255);
 }
 
-.footer-container .footer-content .footer-section-about .contact span {
+#footer-container .footer-content .footer-section-about .contact span {
     display: block;
     font-size: 1.1em;
     margin-bottom: 8px;
 }
 
-.footer-container .footer-content .footer-section-about .socials a {
+#footer-container .footer-content .footer-section-about .socials a {
     border: 1px solid whitesmoke;
     width: 45px;
     height: 41px;
@@ -113,7 +114,7 @@
     color: whitesmoke;
     }
 
-    .footer-container .footer-content .footer-section-about .socials a:hover {
+#footer-container .footer-content .footer-section-about .socials a:hover {
         border: 1px solid rgb(60, 128, 255);
         color: rgb(60, 128, 255);
     }

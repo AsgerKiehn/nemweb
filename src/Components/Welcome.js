@@ -6,7 +6,9 @@ import "../styles/welcome-smart.css"
 
 function Welcome() {
     return (
-        <div >
+        <div className="welcome" >
+            <div className="welcome-intro">
+            </div>
             <img src={smartLearn} className="welcome-smart" alt=""/>
         </div>
     )

@@ -109,6 +109,7 @@
     width: 1000px;
     padding: 10px;
     display: flex;
+    margin-top: 50px;
   }
 
   .product-box {
@@ -131,5 +132,16 @@
   }
 
   #text-col-strict {
+    font-size: 16px;
     color: #333;
+  }
+
+
+
+  .tick {
+    width: 15px;
+  }
+
+  #navbar {
+    font-size: 16px;
   }

@@ -11,7 +11,7 @@ function NavBar(props) {
     return (
       <div>
 
-        <Navbar fixed="top" bg="light" expand="lg">
+        <Navbar fixed="top" bg="light" expand="lg" id="navbar">
           <Navbar.Brand href="#home"><img src={logo} className="topimg" alt="" /></Navbar.Brand>
             <Navbar.Brand href="#home">NemUdvikler.dk</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,11 +33,10 @@ function NavBar(props) {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                       </NavDropdown>
-                      <Nav.Link href="#link">Community</Nav.Link>
+                      <Nav.Link href="#">Community</Nav.Link>
                   </Nav>
                   <Nav>
                     <Nav.Link href="#link">Login / Opret</Nav.Link>
-                        <ToggleTheme darkmode={props.darkMode} setDarkMode={props.setDarkMode}/>
                   </Nav>
                 </Navbar.Collapse>
           </Navbar>
