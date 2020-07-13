@@ -3,19 +3,18 @@ import {Card, Button} from 'react-bootstrap';
 import "../styles/DayNightMode.css"
 import "../styles/enkeltvalg-select.css"
 
-import weblearn from "../logos/web-learn.png"
-import starterlearn from "../logos/starter-learn.png"
-import enkeltProd from "../logos/enkelt-produkt.png"
+import weblearn from "../logos/all-in.svg"
+import starterlearn from "../logos/starter-learn.svg"
+import enkeltProd from "../logos/enkeltvalg.svg"
 
 import tick from "../logos/tick.svg"
 
 function ProductBox() {
     return (
         <div className="product-container">
-
-            
+    
             <Card border="light" className="product-box">
-                <Card.Img variant="top" src={enkeltProd} id="product-pic"/>
+                <Card.Img variant="top" src={enkeltProd} id="product-picOne"/>
                 <Card.Body>
                 <Card.Title id="align-text">Enkeltvalg</Card.Title>
 
@@ -27,17 +26,13 @@ function ProductBox() {
                 </select>
                     <br/>
                     <br/>
-                    <Card.Text id="text-col-strict">
-                        <ul>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                        </ul>
-                     Some quick example text to build on the card title and make up the bulk of
-                     the card's content.
-                     </Card.Text>
+                    <div id="product-included">
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                     </div>
                      <br/>
                     <Button variant="primary" block>Vælg</Button>
                 </Card.Body>
@@ -47,20 +42,17 @@ function ProductBox() {
                 <Card.Img variant="top" src={starterlearn} id="product-pic"/>
                 <Card.Body>
                 <Card.Title id="align-text">Starter Course</Card.Title>
-                    <Card.Text id="text-col-strict">
-                        <ul>
-                        <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                        </ul>
+                    <div id="product-included">
+
+                        <h6>Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+
                         <br/>
-                     Some quick example text to build on the card title and make up the bulk of
-                     the card's content.
-                     </Card.Text>
+                     </div>
                      <br/>
                     <Button variant="primary" block>Vælg</Button>
                 </Card.Body>
@@ -70,21 +62,17 @@ function ProductBox() {
                 <Card.Img variant="top" src={weblearn} id="product-pic"/>
                 <Card.Body>
                 <Card.Title id="align-text">All-in</Card.Title>
-                    <Card.Text id="text-col-strict">
-                        <ul>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                            <li>Lifetime Acces <img src={tick} alt="" className="tick"/></li>
-                        </ul>
-                     Some quick example text to build on the card title and make up the bulk of
-                     the card's content.
-                     </Card.Text>
+                    <div id="product-included">
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                            <h6>- Lifetime Acces <img src={tick} alt="" className="tick"/></h6>
+                     </div>
                     <Button variant="primary" block>Vælg</Button>
                 </Card.Body>
             </Card>

@@ -1,5 +1,5 @@
 import React from "react";
-import PlaylistItem from "../PlaylistItem"
+import PlaylistItem from "./PlaylistItem"
 import withLink from "../hoc/withLink"
 import StyledPlaylistitems from "../../styles/video-styles/StyledPlaylistitems"
 

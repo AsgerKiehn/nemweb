@@ -5,13 +5,13 @@
 }
 
 .welcome {
-    padding-top: 80px;
+    padding-top: 89px;
     display: flex;
-    background-color: rgb(240, 244, 247);
+    background-color: rgb(252, 252, 252);
     width: 100%;
-    height: 450px;
+    height: 550px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .welcome h3 {
@@ -22,6 +22,7 @@ color: #1B1E24;
 .welcome-smart {
     width: 40%;
     padding: 20px;
+    padding-right: 50px;
     float: right;
 }
 
@@ -29,4 +30,9 @@ color: #1B1E24;
     padding-left: 10px;
     width: 420px;
     height: 230px;
+}
+
+h1 {
+    float: left;
+    padding-left: 30px;
 }

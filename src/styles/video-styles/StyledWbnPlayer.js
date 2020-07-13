@@ -12,7 +12,7 @@ const StyledWbnPlayer = styled.div`
   max-height: 863px;
   transition: all 0.5s ease;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1300px) {
     display: block;
     max-height: 10000px;
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import StyledPlaylistItem from "../styles/video-styles/StyledPlaylistItem"
+import StyledPlaylistItem from "../../styles/video-styles/StyledPlaylistItem"
 
 const PlaylistItem = ({ video, active, played }) => (
         <StyledPlaylistItem active={active} played={played}>

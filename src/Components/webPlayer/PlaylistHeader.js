@@ -1,6 +1,6 @@
 import React from "react";
-import StyledPlaylistHeader from "../styles/video-styles/StyledPlaylistHeader"
-import StyledJourney from "../styles/video-styles/StyledJourney"
+import StyledPlaylistHeader from "../../styles/video-styles/StyledPlaylistHeader"
+import StyledJourney from "../../styles/video-styles/StyledJourney"
 
 const PlaylistHeader = ({ active, total }) => (
     <StyledPlaylistHeader>
@@ -11,4 +11,4 @@ const PlaylistHeader = ({ active, total }) => (
     </StyledPlaylistHeader>
   );
   
-  export default PlaylistHeader;
+  export default PlaylistHeader; 

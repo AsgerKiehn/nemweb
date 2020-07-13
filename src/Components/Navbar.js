@@ -1,12 +1,11 @@
 import React from 'react'
-import {Nav, Navbar, NavDropdown, Button, Form, FormControl} from 'react-bootstrap';
-import ToggleTheme from "./ToggleTheme"
+import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import logo from "../logos/nem-udvikler.png"
 
 import "../styles/TopImg.css"
 import "../styles/DayNightMode.css"
 
-function NavBar(props) {
+function NavBar() {
 
     return (
       <div>
@@ -18,6 +17,7 @@ function NavBar(props) {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
                     <Nav.Link href="#home">Forside</Nav.Link>
+                    <Nav.Link href="#link">Opdag</Nav.Link>
                       <NavDropdown title="Kurser" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -25,7 +25,6 @@ function NavBar(props) {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                       </NavDropdown>
-                      <Nav.Link href="#link">Opdag</Nav.Link>
                       <NavDropdown title="Guides" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

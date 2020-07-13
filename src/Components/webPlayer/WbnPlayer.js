@@ -1,28 +1,20 @@
 import React, { useState, useEffect} from "react";
 import { ThemeProvider } from "styled-components"
-import Video from "../Video"
-import Playlist from "../containers/Playlist"
+import Video from "./Video"
+import Playlist from "./Playlist"
 import StyledWbnPlayer from "../../styles/video-styles/StyledWbnPlayer"
 
 const theme = {
     bgcolor: 'rgb(33, 39, 63)',
-    bgcolorItem: "#414141",
-    bgcolorItemActive: "#405c63",
-    bgcolorPlayed: "#526d4e",
-    border: "none",
-    borderPlayed: "none",
-    color: "fff"
-}
-
-const themeLight = {
-    bgcolor: '#fff',
-    bgcolorItem: "#fff",
-    bgcolorItemActive: "#80a7b1",
-    bgcolorPlayed: "#7d9979",
-    border: "none",
-    borderPlayed: "none",
-    color: "353535"
-}
+    bgcolorItem: '#414141',
+    bgcolorItemActive: '#405c63',
+    bgcolorPlayed: '#526d4e',
+    border: 'none',
+    borderPlayed: 'none',
+    color: '#fff',
+  };
+  
+  
 
 const WbnPlayer = props => {
     const videos = JSON.parse(document.querySelector('[name="videos"]').value);
@@ -95,19 +87,19 @@ const WbnPlayer = props => {
   
         setState(prevState => ({ ...prevState, videos }));
   
-        // setState({
-        //   ...state,
-        //   videos: state.videos.map( element => {
-        //     return element.id === state.activeVideo.id
-        //     ? { ...element, played: true }
-        //     : element;
-        //   })
-        // });
+         //setState({
+          //...state,
+           //videos: state.videos.map( element => {
+             //return element.id === state.activeVideo.id
+             //? { ...element, played: true }
+            //: element;
+           //})
+         //});
       }
     };
   
     return (
-      <ThemeProvider theme={state.nightMode ? theme : themeLight}>
+      <ThemeProvider theme={theme}>
         {state.videos !== null ? (
           <StyledWbnPlayer>
             <Video

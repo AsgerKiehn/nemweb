@@ -120,8 +120,14 @@
     box-shadow: 0px 0px 17px -9px rgba(0,0,0,0.20);
   }
 
+  #product-picOne {
+    width: 120px;
+    margin: auto;
+    padding-top: 20px;
+  }
+
   #product-pic {
-    width: 170px;
+    width: 210px;
     margin: auto;
     padding-top: 20px;
   }
@@ -136,6 +142,10 @@
     color: #333;
   }
 
+  #product-included {
+    text-align: center;
+  }
+
 
 
   .tick {
@@ -144,4 +154,8 @@
 
   #navbar {
     font-size: 16px;
+  }
+
+  .player-container {
+    padding: 0 100px 0 100px;
   }

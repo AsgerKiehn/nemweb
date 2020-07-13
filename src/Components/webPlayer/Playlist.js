@@ -1,6 +1,6 @@
 import React from "react";
-import PlaylistHeader from "../PlaylistHeader"
-import PlaylistItems from "../containers/PlaylistItems"
+import PlaylistHeader from "./PlaylistHeader"
+import PlaylistItems from "./PlaylistItems"
 import NightMode from "../Nightmode"
 import StyledPlaylist from "../../styles/video-styles/StyledPlaylist"
 
